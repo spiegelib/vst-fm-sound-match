@@ -1,0 +1,9 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data
+data_simple_fm_mfcc/
+data_simple_fm_stft/
+evaluation/
