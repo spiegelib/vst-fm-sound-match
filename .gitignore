@@ -7,6 +7,7 @@ __pycache__/
 data_simple_fm_mfcc/
 data_simple_fm_stft/
 evaluation/
+*.zip
 
 # C extensions
 *.so
