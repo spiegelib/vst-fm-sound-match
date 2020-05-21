@@ -23,7 +23,7 @@ In order to run these notebooks, you will need:
 
 * SpiegeLib can be installed via pip: `pip install spiegelib`
 * All dependencies except for [RenderMan](https://github.com/fedden/RenderMan) will be installed by pip. RenderMan will need to be installed manually.
-* Deatiled instructions on installing RenderMan in a conda environment can be found [here](https://spiegelib.github.io/spiegelib/getting_started/installation.html#installing-renderman-in-an-anaconda-environment). MacOSX only currently.
+* Deatiled instructions on installing SpiegeLib and Renderman in conda environment are available [here](https://spiegelib.github.io/spiegelib/getting_started/installation.html)
 
 ### Running
 
