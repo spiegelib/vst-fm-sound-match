@@ -1,6 +1,8 @@
 # FM Synthesizer Sound Matching Experiment
 
-Using machine learning and evolutionary algorithms to program a VST FM synthesizer. 
+### Machine learning and evolutionary algorithms to program a VST FM synthesizer.
+
+In synthesizer sound matching, algorithms are used to attempt to find parameters for a synthesizer in order to replicate a target sound as closely as possible. In this experiment six different algorithms are compared in their ability to sound match Dexed, a VST emulation of the Yamaha DX7 synthesizer. Four deep learning models are compared: a multi-layer perceptron (MLP), a long short term memory (LSTM) recurrent neural network, a LSTM model with highway layers (LSTM++), and a convolutional neural network. Two genetic algorithms are also included for comparison: a simple single objective genetic algorithm, and a multi-objective non-dominated sorting genetic algorithm (NSGA III). 
 
 This repository contains python notebooks for an example experiment that highlights the use of the SpiegeLib software library for automatic synthesizer programming research and was published as a conference paper for the Audio Engineering Society Spring 2020 conference that was held virtually in June of 2020.
 
@@ -21,7 +23,7 @@ In order to run these notebooks, you will need:
 
 * SpiegeLib can be installed via pip: `pip install spiegelib`
 * All dependencies except for [RenderMan](https://github.com/fedden/RenderMan) will be installed by pip. RenderMan will need to be installed manually.
-* Deatiled instructions on installing RenderMan in a conda environment can be found [here](https://spiegelib.github.io/spiegelib/getting_started/installation.html#installing-renderman-in-an-anaconda-environment). MacOSX only currently.
+* Deatiled instructions on installing SpiegeLib and Renderman in a conda environment are available [here](https://spiegelib.github.io/spiegelib/getting_started/installation.html)
 
 ### Running
 
