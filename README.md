@@ -28,9 +28,11 @@ In order to run these notebooks, you will need:
 To recreate the experiment from start to finish, you can run the notebooks in this order:
 
 1. [synth_config.ipynb](../master/synth_config.ipynb) : Configures Dexed synthesizer for this experiment by selecting a subset of parameters to automatically program and freezing the rest.
-2. [dataset_generation.ipynb](../master/dataset_geneation.ipynb) : Create datasets for training and validating deep learning models. Also creates 25 audio targets for evaluating results.
+2. [dataset_generation.ipynb](../master/dataset_generation.ipynb) : Create datasets for training and validating deep learning models. Also creates 25 audio targets for evaluating results.
 3. [train_deep_learning_models.ipynb](../master/train_deep_learning_models.ipynb) : Train deep learning models using the dataset we just created. 
 4. [sound_match_deep_learning.ipynb](../master/sound_match_deep_learning.ipynb) : Estimate synthesizer parameters to match the 25 evaluation audio targets using the trained deep learning models.
 5. [sound_match_genetic.ipynb](../master/sound_match_genetic.ipynb) : Estimate synthesizer parameters to match the 25 evaluation audio targets using genetic algoritmhs.
 6. [evaluation.ipynb](../master/evaluation.ipynb) : Evaluate the results of sound matching. 
+
+[Pre-trained models](../master/saved_models) are also included in this repo which can be used. And the datasets generated in the original experiment are available to download. 
 
