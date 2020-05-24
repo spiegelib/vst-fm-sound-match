@@ -6,7 +6,7 @@ In synthesizer sound matching, algorithms are used to attempt to find parameters
 
 This repository contains python notebooks for an example experiment that highlights the use of the SpiegeLib software library for automatic synthesizer programming research and was published as a conference paper for the Audio Engineering Society Spring 2020 conference that was held virtually in June of 2020.
 
-For more information on this experiment and SpiegeLib please visit the [experiment website](https://spiegelib.github.io/spiegelib/examples/fm_sound_match.html)
+Original datasets and sound files used for evaluation can be downloaded from [zenodo](https://doi.org/10.5281/zenodo.3722784). For more information on this experiment and SpiegeLib please visit the [experiment website](https://spiegelib.github.io/spiegelib/examples/fm_sound_match.html)
 
 ---
 
@@ -21,9 +21,9 @@ In order to run these notebooks, you will need:
 
 ### Installation
 
+* Deatiled instructions on installing SpiegeLib in a conda virtual environment are available [here](https://spiegelib.github.io/spiegelib/getting_started/installation.html)
 * SpiegeLib can be installed via pip: `pip install spiegelib`
 * All dependencies except for [RenderMan](https://github.com/fedden/RenderMan) will be installed by pip. RenderMan will need to be installed manually.
-* Deatiled instructions on installing SpiegeLib and Renderman in a conda environment are available [here](https://spiegelib.github.io/spiegelib/getting_started/installation.html)
 
 ### Running
 
@@ -36,5 +36,5 @@ To recreate the experiment from start to finish, you can run the notebooks in th
 5. [sound_match_genetic.ipynb](../master/sound_match_genetic.ipynb) : Estimate synthesizer parameters to match the 25 evaluation audio targets using genetic algoritmhs.
 6. [evaluation.ipynb](../master/evaluation.ipynb) : Evaluate the results of sound matching. 
 
-[Pre-trained models](../master/saved_models) are also included in this repo which can be used. And the datasets generated in the original experiment are available to download. 
+[Pre-trained models](../master/saved_models) are also included in this repo which can be used. The datasets used in the original experiment are also available to download, see https://doi.org/10.5281/zenodo.3722784. 
 
